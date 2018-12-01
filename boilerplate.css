@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /*
 /* 
  * HTML5 ✰ Boilerplate
@@ -58,7 +58,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    ========================================================================== */
 
 a { color: #00e; }
-a:visited { color: #551a8b; }
+a:visited { color: #fff; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 
