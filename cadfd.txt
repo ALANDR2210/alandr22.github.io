@@ -1,0 +1,1 @@
+<a href="#" id="show-modal" font color="#000">Mostrar modal</a>
