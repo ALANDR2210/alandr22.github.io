@@ -44,22 +44,22 @@ var printModal = function printModal(content) {
   });
 };
 
-var diego = '<iframe src="https://clips.twitch.tv/embed?clip=CulturedWealthyChimpanzeeHassanChop" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
+var diego = '<iframe id="LayoutDiv1" src="https://clips.twitch.tv/embed?clip=CulturedWealthyChimpanzeeHassanChop" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
 document.getElementById('show-diego').addEventListener('click', function () {
   printModal(diego);
 });
 
-var mau = '<<iframe src="https://clips.twitch.tv/embed?clip=NurturingAggressiveMarjoramThunBeast" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
+var mau = '<<iframe id="LayoutDiv1" src="https://clips.twitch.tv/embed?clip=NurturingAggressiveMarjoramThunBeast" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
 document.getElementById('show-mau').addEventListener('click', function () {
   printModal(mau);
 });
 
-var luca = '<iframe src="https://clips.twitch.tv/embed?clip=NaiveInspiringCormorantPanicBasket" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
+var luca = '<iframe id="LayoutDiv1" src="https://clips.twitch.tv/embed?clip=NaiveInspiringCormorantPanicBasket" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
 document.getElementById('show-luca').addEventListener('click', function () {
   printModal(luca);
 });
 
-var alan = '<iframe src="https://clips.twitch.tv/embed?clip=VibrantBlazingOrangeOSfrog" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
+var alan = '<iframe id="LayoutDiv1" src="https://clips.twitch.tv/embed?clip=VibrantBlazingOrangeOSfrog" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
 document.getElementById('show-alan').addEventListener('click', function () {
   printModal(alan);
 });
