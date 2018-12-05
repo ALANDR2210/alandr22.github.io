@@ -87,7 +87,7 @@ iframe {
 	position:fixed;
 	left:0px;
   	top:240px;
-	z-index:1;
+	z-index:0;
 }
 
 #posfix {
