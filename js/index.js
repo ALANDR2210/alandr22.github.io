@@ -49,7 +49,7 @@ document.getElementById('show-diego').addEventListener('click', function () {
   printModal(diego);
 });
 
-var mau = '<<iframe id="LayoutDiv1" src="https://clips.twitch.tv/embed?clip=NurturingAggressiveMarjoramThunBeast" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
+var mau = '<iframe id="LayoutDiv1" src="https://clips.twitch.tv/embed?clip=NurturingAggressiveMarjoramThunBeast" frameborder="0" allowfullscreen="true" height="450" width="800"></iframe>';
 document.getElementById('show-mau').addEventListener('click', function () {
   printModal(mau);
 });
