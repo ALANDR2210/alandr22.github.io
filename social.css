@@ -86,26 +86,26 @@ iframe {
 #social {
 	position:fixed;
 	left:0px;
-  	top:240px;
+  top:100px;
 	z-index:0;
 }
 
 #posfix {
 	position:relative;
-	top:-15px;
+	top:-50px;
 }
 
 #posfix2 {
 	position:relative;
-	top:-30px;
+	top:-100px;
 }
 
 #posfix3 {
 	position:relative;
-	top:-45px;
+	top:-150px;
 }
 
 #posfix4 {
 	position:relative;
-	top:-60px;
+	top:-200px;
 }
