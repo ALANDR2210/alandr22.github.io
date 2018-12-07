@@ -12,7 +12,7 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  font-size: 1.5em;
+  font-size: .8em;
   opacity: .5;
 }
 .ed-modal-container:hover::before {
