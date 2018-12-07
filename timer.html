@@ -4,8 +4,33 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <title>Capri Awards</title>
 <link rel="stylesheet" href="css/jquery.countdown.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
 <style type="text/css">
-#defaultCountdon { width: 240px; height: 45px; }
+#defaultCountdon { 
+	width: 50%;
+	position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 70px;
+    background-color: #00000087;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("e.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/jquery.plugin.min.js"></script>
@@ -13,13 +38,14 @@
 <script>
 $(function () {
 	$('#defaultCountdon').countdown({
-		until: $.countdown.UTCDate(-3, 2018, 12 - 1, 7, 1, 33),
+		until: $.countdown.UTCDate(-3, 2018, 12 - 1, 7, 17, 57),
 		expiryUrl: 'index.html'});
 
 });
 </script>
 </head>
 <body>
-<div algin="center" id="defaultCountdon"></div>
+<div class="bg"></div>
+<div align="center" id="defaultCountdon"></div>
 </body>
 </html>
