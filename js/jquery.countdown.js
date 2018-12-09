@@ -191,8 +191,8 @@ timezone: -60
 						<code>false</code> for left-to-right. */
 		regionalOptions: { // Available regional settings, indexed by language/country code
 			'': { // Default regional settings - English/US
-				labels: ['AÃ±os', 'Meses', 'Semanas', 'DÃ­as', 'Horas', 'Minutos', 'Segundos'],
-				labels1: ['AÃ±o', 'Mes', 'Semana', 'DÃ­a', 'Hora', 'Minuto', 'Segundo'],
+				labels: ['Años', 'Meses', 'Semanas', 'Días', 'Horas', 'Minutos', 'Segundos'],
+				labels1: ['Año', 'Mes', 'Semana', 'Día', 'Hora', 'Minuto', 'Segundo'],
 				compactLabels: ['a', 'm', 's', 'd'],
 				whichLabels: null,
 				digits: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
