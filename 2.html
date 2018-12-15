@@ -18,8 +18,11 @@
 <link href="css/social.css" rel="stylesheet" "type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="css/modal.css">
+<link rel="stylesheet" href="css/parallax2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:700" rel="stylesheet">
 <link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/menu.css">
 <style type="text/css">
 body,td,th {
 	color: #000;
@@ -62,6 +65,7 @@ body {
 <script src="/js/parallax.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+<script src="js/menu.js"></script>
 </head>
 <header class='header'>
 <body link="#CC0000" vlink="#CC0000" alink="#FFFFFF">
@@ -69,10 +73,21 @@ body {
     <div class='logo'>
       <img id="logo" src="images/2.png">
     </div>
+<span align="right" id="txt" onclick="toggleNav()" style="left: 10px; position: absolute; top: 50px;">=</span>
+<div align="right" id="myNav" class="overlay">
+  <div class="overlay-content">
+    <a id="pl1" href="#">Historia</a>
+    <a id="pl2" href="#">Nominados</a>
+    <a id="pl3" href="#">Clients</a>
+    <a id="pl4" href="#">Contact</a>
+  </div>
+</div>
 </header>
 <div id="text3"><br>¿Cómo te llamas? Javiera. ¿De dónde eres? Soy de Santiago de Chile. ¿Cuántos años tienes? Actualmente tengo 25 Años. ¿Que estudias? Terminé mi carrera como Ingeniera Civil Informática. </div>
 <img id="img2" src="tes.png">
-<div class="parallax-window" data-parallax="scroll" data-image-src="aa.png"></div>
+<section class="section2">
+  <h1>Section w/ parallax effect</h1>
+</section>
 <header class='text'>
   <p><br>HISTORIA</p>
   <div class="letra" align="center">Google LLC es una compañía principal subsidiaria de la multinacional estadounidense Alphabet Inc., cuya especialización son los productos y servicios relacionados con Internet, software, dispositivos electrónicos y otras tecnologías. El principal producto de Google es el motor de búsqueda de contenido en Internet, del mismo nombre, aunque ofrece también otros productos y servicios como el correo electrónico llamado Gmail, sus servicios de mapas Google Maps, Google Street View y Google Earth, el sitio web de vídeos YouTube y otras utilidades web como Google Libros o Google Noticias, Google Chrome y la red social Google+. Por otra parte, lidera el desarrollo del sistema operativo basado en Linux, Android, orientado a teléfonos inteligentes, tabletas, televisores y automóviles y en gafas de realidad aumentada, las Google Glass. Su eslogan es «Do the Right Thing» («Haz lo correcto»)</div>
