@@ -58,6 +58,42 @@ body {
 #img2 {
   width: 100%;
 }
+.container2 {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: -20px;
+  left: 5px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #000;
+  margin: 8px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(0px, 7px);
+  transform: rotate(-45deg) translate(0px, 7px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(0px, -7px);
+  transform: rotate(45deg) translate(0px, -7px);
+}
+@media screen and (max-width: 500px) {
+.bar1, .bar2, .bar3 {
+  width: 20px;
+  height: 1px;
+  background-color: white;
+  margin: 9px 0;
+  transition: 0.4s;
+}
+}
 </style>
 
 <script src="js/respond.min.js"></script>
@@ -73,15 +109,23 @@ body {
     <div class='logo'>
       <img id="logo" src="images/2.png">
     </div>
-<span align="right" id="txt" onclick="toggleNav()" style="left: 10px; position: absolute; top: 50px;">=</span>
+<span align="right" id="txt" onclick="toggleNav()" style="left: 10px; position: absolute; top: 50px;"><div id="ww" class="container2" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar3"></div>
+</div></span>
 <div align="right" id="myNav" class="overlay">
   <div class="overlay-content">
-    <a id="pl1" href="www.google.com.ar">Historia</a>
+    <a id="pl1" href="#">Historia</a>
     <a id="pl2" href="#">Nominados</a>
     <a id="pl3" href="#">Clients</a>
     <a id="pl4" href="#">Contact</a>
   </div>
 </div>
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
 </header>
 <div id="text3"><br>¿Cómo te llamas? Javiera. ¿De dónde eres? Soy de Santiago de Chile. ¿Cuántos años tienes? Actualmente tengo 25 Años. ¿Que estudias? Terminé mi carrera como Ingeniera Civil Informática. </div>
 <img id="img2" src="tes.png">
