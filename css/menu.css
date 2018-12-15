@@ -29,6 +29,9 @@
 #txt {
   color: black;
 }
+#ae {
+  background-color: black;
+}
 
 @media screen and (max-width: 500px) {
   .overlay {
@@ -67,5 +70,5 @@
   right: 45px;
   font-size: 20px;
 }
-  #txt {color: white;}
+  #txt {color: red;}
 }
