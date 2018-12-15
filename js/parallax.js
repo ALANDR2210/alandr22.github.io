@@ -163,7 +163,7 @@
     bleed:    0,
     zIndex:   -100,
     iosFix:   true,
-    androidFix: false,
+    androidFix: true,
     position: 'center',
     overScrollFix: false,
     mirrorContainer: 'body',
