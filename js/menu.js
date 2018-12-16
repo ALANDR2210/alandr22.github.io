@@ -1,4 +1,4 @@
-const mq = window.matchMedia( "(max-width: 500px)" );
+const mq = window.matchMedia( "(max-width: 767px)" );
 function toggleNav() {
     var element = document.getElementById("myNav");
     var p1 = document.getElementById("pl1");
