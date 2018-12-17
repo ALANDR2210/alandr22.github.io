@@ -1,0 +1,112 @@
+#pl1 {
+    position: absolute;
+    top: 55px;
+    right: 290px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+#pl1:hover {
+  color: #ccc;
+}
+#pl2 {
+  position: absolute;
+  top: 55px;
+  right: 180px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+#pl2:hover {
+  color: #ccc;
+}
+
+#pl3 {
+  position: absolute;
+  top: 55px;
+  right: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+#pl3:hover {
+  color: #ccc;
+}
+#pl4 {
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+#pl4:hover {
+  color: #ccc;
+}
+
+
+@media screen and (max-width: 767px) and (orientation: landscape), screen and (max-width: 767px) and (orientation: portrait) {
+  .overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 50;
+  left: 0;
+  background-color: rgb(10,10,10);
+  background-color: rgba(0,0,0, 1);
+  overflow-y: hidden;
+  transition: 0.8s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #000;
+  display: block;
+}
+
+  #txt {color: red;
+}
+#social {
+    position: fixed;
+    left: 0px;
+    top: 80px;
+    z-index: 0;
+}
+#posfix {
+    position: relative;
+    top: -60px;
+}
+#posfix2 {
+    position: relative;
+    top: -120px;
+}
+#posfix3 {
+    position: relative;
+    top: -180px;
+}
+#posfix4 {
+    position: relative;
+    top: -240px;
+}
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+    position: sticky;
+}
+}

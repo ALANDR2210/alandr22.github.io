@@ -1,0 +1,111 @@
+body,td,th {
+	color: #FFF;
+	font-family: "Calibri Light";
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 10px;
+	color: #FFF;
+}
+
+#links{
+	z-index:-1;
+}
+
+#l2{
+	z-index: 40;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+  position:sticky;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitch {
+  background: #4b367c;
+  color: white;
+}
+
+.fa-discord {
+  background: #4b367c;
+  color: white;
+}
+
+a:link {
+	color: #FFF;
+}
+
+a:hover {
+	color: #FFF;
+}
+
+iframe {
+    border: none;
+}
+
+#container {
+    height: 20%;
+    width: 100%;
+    background: white;
+    position: absolute;
+	z-index: -1;
+}
+
+#social {
+	position:fixed;
+	left:0px;
+  top:100px;
+	z-index:0;
+}
+
+#posfix {
+	position:relative;
+	top:-50px;
+}
+
+#posfix2 {
+	position:relative;
+	top:-100px;
+}
+
+#posfix3 {
+	position:relative;
+	top:-150px;
+}
+
+#posfix4 {
+	position:relative;
+	top:-200px;
+}
