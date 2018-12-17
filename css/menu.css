@@ -33,7 +33,7 @@
   background-color: black;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) and (orientation: landscape), screen and (max-width: 767px) and (orientation: portrait) {
   .overlay {
   height: 0%;
   width: 100%;
@@ -63,12 +63,5 @@
   display: block;
 }
 
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 20px;
-}
   #txt {color: red;}
 }
