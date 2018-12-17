@@ -7,16 +7,18 @@ function toggleNav() {
     var p4 = document.getElementById("pl4");
     if (mq.matches) {
     if (element.style.height == "100%") {
-        p1.style.color = "black";
+        p1.style.color = "#0000";
         p1.style.transition = "0.4s"
-        p2.style.color = "black";
+        p2.style.color = "#0000";
         p2.style.transition = "0.4s"
-        p3.style.color = "black";
+        p3.style.color = "#0000";
         p3.style.transition = "0.4s"
-        p4.style.color = "black";
+        p4.style.color = "#0000";
         p4.style.transition = "0.4s"
         element.style.height = "0%";
+
     } else {
+        p1.style.display = "inline"
         p1.style.color = "#fff"
         p1.style.transition = "0.8s"
         p1.style.position = "relative";
