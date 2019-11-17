@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-color: black">
+<img src="logo.png" style="float: left" width="250px">
+<div style="position: relative;left: 50%;transform: translateX(-50%);">
+<img id="myPlay" src="1.jpg" height="275px" >
+<img id="myUw" src="3.jpg" height="275">
+</div>
+<video id="video" width="1200" style="position: relative;left: 50%;transform: translateX(-50%);"></video>
+<script>
+var video = document.getElementById('video');
+var source = document.createElement('source');
+
+myPlay.addEventListener('click', function() {
+
+video.pause();
+source.setAttribute('src', '2.mp4');
+video.appendChild(source);
+video.load();
+video.volume = 0.4;
+video.play();
+});
+
+myUw.addEventListener('click', function() {
+
+video.pause();
+source.setAttribute('src', '3.mp4');
+video.appendChild(source);
+video.load();
+video.volume = 0.4;
+video.play();
+});
+</script> 
+</body>
+</html>
