@@ -1,0 +1,28 @@
+#EXTM3U
+#PLAYLIST:alan
+#EXTINF:0 group-title="Undefined",HISTORY
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5846.m3u8
+#EXTINF:0 group-title="Undefined",FOX
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5916.m3u8
+#EXTINF:0 group-title="Undefined",FOX PREMIUM ACTION
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5920.m3u8
+#EXTINF:0 group-title="Undefined",FOX PREMIUM CINEMA
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5922.m3u8
+#EXTINF:0 group-title="Undefined",FOX PREMIUM COMEDY
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5926.m3u8
+#EXTINF:0 group-title="Undefined",FOX PREMIUM FAMILY
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5925.m3u8
+#EXTINF:0 group-title="Undefined",FOX PREMIUM MOVIES
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5927.m3u8
+#EXTINF:0 group-title="Undefined",FOX SPORTS
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5931.m3u8
+#EXTINF:0 group-title="Undefined",FOX SPORTS 2
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5933.m3u8
+#EXTINF:0 group-title="Undefined",FOX MX
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/6598.m3u8
+#EXTINF:0 group-title="Undefined",DISCOVERY CHANNEL
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5899.m3u8
+#EXTINF:0 group-title="Undefined",EL GOURMET
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/5911.m3u8
+#EXTINF:0 group-title="Undefined",TNT SPORTS
+http://ultimatextreme.net:25461/live/mdDzIOA9Cs/QKgCpk4uu9/8896.m3u8
